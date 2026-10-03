@@ -1,0 +1,1 @@
+Copy Sigf.tmod into Documents/My Games/Terraria/tModLoader/Mods and enable it in tModLoader's Workshop > Manage Mods menu. Start a world: Whiterun appears at spawn and the Dragonbone Blade is your weapon.
