@@ -81,5 +81,7 @@
     "id": "terraria",
     "status": "draft"
   },
-  "built_at": "2026-10-05T15:28:36.514Z"
+  "built_at": "2026-10-05T15:28:36.514Z",
+  "listed": false,
+  "unlisted_reason": "Only playable in the stream demo for now: a player mode for this kit is coming."
 }
