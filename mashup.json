@@ -1,0 +1,81 @@
+{
+  "id": "sigf/terraria-skyrim-takeover",
+  "version": "1.0.0",
+  "name": "Skyrim Takeover",
+  "tagline": "Bring Skyrim into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "terraria",
+      "role": "host",
+      "engine": "Terraria 1.4.4 + tModLoader (C#, .NET 8)",
+      "apps": {
+        "steam": "1281930"
+      }
+    },
+    {
+      "game": "skyrim",
+      "role": "guest",
+      "label": "Skyrim"
+    }
+  ],
+  "requires": [
+    {
+      "id": "tmodloader"
+    }
+  ],
+  "install": [
+    {
+      "game": "terraria",
+      "strategy": "game-dir-snapshot",
+      "files": [
+        {
+          "src": "terraria-skyrim-takeover.zip",
+          "dst": "{docs}/My Games/Terraria/tModLoader/Mods",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "Sigf.tmod",
+              "sha256": "9beebceb4457a51ac1495c5a5e80c427b604dbe151e1a05f6301021203efbcd1"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/terraria-skyrim-takeover/releases/download/v1.0.0/terraria-skyrim-takeover.zip",
+          "sha256": "560dfe4f3f4d67404498b6b4fa76528e417e7582fe8e10c169c78334e655d18e",
+          "size": 233070
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "terraria",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "terraria-skyrim-takeover.zip",
+      "url": "https://github.com/SIGFAI/terraria-skyrim-takeover/releases/download/v1.0.0/terraria-skyrim-takeover.zip",
+      "sha256": "560dfe4f3f4d67404498b6b4fa76528e417e7582fe8e10c169c78334e655d18e",
+      "size": 233070
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/terraria-skyrim-takeover",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "terraria",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:28:36.514Z",
+  "notes": [
+    "Copy Sigf.tmod into Documents/My Games/Terraria/tModLoader/Mods and enable it in tModLoader's Workshop > Manage Mods menu. Start a world: Whiterun appears at spawn and the Dragonbone Blade is your weapon."
+  ]
+}
