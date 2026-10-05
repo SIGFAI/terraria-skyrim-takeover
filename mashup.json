@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "name": "Skyrim Takeover",
   "tagline": "Bring Skyrim into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "Defend Whiterun, built around your world spawn, from endless draugr while Whiterun guards fight beside you.",
+    "Swing the Dragonbone Blade the mod puts in your first hotbar slot: every swing also fires a FUS RO DAH shout wave.",
+    "A dragon attacks about every 45 seconds; slay it to absorb its soul and become Dragonborn.",
+    "Eat the Cheese Wheels that draugr and dragons leave behind to heal; create or enter any world to start.",
+    "Your character currently walks and attacks on its own (autopilot) and cannot be hurt."
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -74,8 +81,5 @@
     "id": "terraria",
     "status": "draft"
   },
-  "built_at": "2026-10-05T15:28:36.514Z",
-  "notes": [
-    "Copy Sigf.tmod into Documents/My Games/Terraria/tModLoader/Mods and enable it in tModLoader's Workshop > Manage Mods menu. Start a world: Whiterun appears at spawn and the Dragonbone Blade is your weapon."
-  ]
+  "built_at": "2026-10-05T15:28:36.514Z"
 }
